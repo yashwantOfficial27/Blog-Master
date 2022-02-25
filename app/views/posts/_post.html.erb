@@ -1,0 +1,12 @@
+<div id="<%= dom_id post %>">
+
+
+<tr>
+    <td><%= post.title %></td>
+    <td><%= post.body %></td>
+    <td><%= time_ago_in_words(post.created_at) %></td>
+    <td><%= link_to "Show this post", post, class:"btn btn-info" %></td>
+  </div>
+</tr>
+
+</div>
